@@ -1,3 +1,6 @@
 flask
 selenium
 urllib
+gunicorn
+requests
+geopy
