@@ -7,6 +7,9 @@ name = "pypi"
 selenium = "==3.141.0"
 Flask = "==1.1.1"
 
+[scripts]
+start = "python main.py"
+
 [dev-packages]
 
 [requires]
