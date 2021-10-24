@@ -1,6 +1,0 @@
-Flask
-selenium
-urllib
-gunicorn
-requests
-geopy
