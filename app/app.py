@@ -1,7 +1,7 @@
 #Flaskとrender_template（HTMLを表示させるための関数）をインポート
 from flask import Flask,render_template
 from selenium import webdriver
-import chromedriver_binary
+# import chromedriver_binary
 from selenium.webdriver.common.by import By
 import time
 import urllib.request
@@ -22,7 +22,7 @@ def hello():
 def index():
     driver.get("https://d4c2-112-138-207-235.ngrok.io")
     time.sleep(5)
-    img = "/Users/watanabetaichi/Projects/spajam-flask-api/app/imgs/test1.jpeg"
+    img = "imgs/test1.jpeg"
     element = driver.find_element_by_id('load_line_file')
     element.send_keys(img)
     time.sleep(15)
